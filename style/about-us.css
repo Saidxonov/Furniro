@@ -1,0 +1,318 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 144rem;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+  height: 100%;
+}
+
+.menu-header {
+  display: flex;
+  column-gap: 7.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.header-menu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header {
+  width: 144rem;
+  height: 10rem;
+}
+
+.baskets {
+  display: flex;
+  column-gap: 4.5rem;
+  align-items: center;
+}
+
+.menu-header a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.header {
+  padding-top: 5rem;
+  margin: 0 auto;
+}
+
+.fa-heart:hover {
+  color: red !important;
+}
+
+.fa-heart-o {
+  width: 28px;
+  height: 28px;
+}
+
+.fa-2x {
+  width: 28px;
+  height: 28px;
+}
+
+.fa-heart-o:hover {
+  color: red !important;
+}
+
+.menu-header {
+  display: flex;
+  align-items: center;
+}
+
+.menu-link {
+  position: relative;
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+.menu-link::after {
+  content: "";
+  display: block;
+  width: 0%;
+  height: 2px;
+  background-color: black;
+  transition: width 0.3s ease;
+  position: absolute;
+  bottom: -5px;
+  /* chiziq matnning ostida chiqadi */
+  left: 0;
+}
+
+.menu-link:hover::after {
+  width: 100%;
+}
+
+.nav {
+  width: 1440px;
+  height: 316px;
+}
+
+.nav {
+  background-image: url("../image/shop/nav-bg-image.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  width: 100%;
+}
+
+.navigation-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 61px;
+}
+
+.navigation-content h1 {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 72px;
+  text-align: center;
+}
+
+.navigation-content p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.left-content h2 {
+  width: 223px;
+  height: 105px;
+  font-family: Poppins;
+  font-size: 28px;
+  font-weight: 500;
+  line-height: 35.42px;
+  text-align: left;
+  color: #000;
+  margin-top: 55px;
+}
+
+.left-content a {
+  padding-top: 21px;
+  width: 104px;
+  height: 30px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 30px;
+  text-align: left;
+  color: #727272;
+  border: none;
+  border-bottom: 2px solid #727272;
+  transition: 0.3s;
+}
+
+.left-content {
+  margin-left: 96px;
+}
+
+.vertical-line {
+  width: 30px;
+  height: 1px;
+  border: 1px 0px 0px 0px;
+  rotate: -90 deg;
+}
+
+.product-comparison {
+  font-family: Poppins;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: left;
+  color: #9f9f9f;
+}
+
+.global-ranking {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+  /* padding-right: 4px; */
+}
+
+.product-comparison {
+  display: flex;
+  align-items: center;
+}
+
+.asgaard-sofa h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.36px;
+  text-align: left;
+  width: 192px;
+  height: 30px;
+  padding-top: 18px;
+}
+
+.asgaard-sofa p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+}
+
+.section-1-content {
+  display: flex;
+  align-items: center;
+  column-gap: 47px;
+}
+
+.product-comparison p {
+  padding-left: 9px;
+}
+
+.outdoor-sofa-set p {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 27px;
+  text-align: left;
+}
+
+.outdoor-sofa-set h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 30.36px;
+  text-align: left;
+  width: 192px;
+  height: 30px;
+  padding-top: 18px;
+}
+
+.ranking {
+  padding-left: 6px;
+}
+
+.asgaard-sofa {
+  position: absolute;
+  top: 550px;
+  left: 734px;
+}
+
+.outdoor-sofa-set {
+  margin-top: 100px;
+}
+
+.add-a-product {
+  width: 242px;
+  height: 79px;
+  top: 499px;
+  left: 1073px;
+  border-radius: 6px;
+}
+
+.add-a-product a {
+  padding: 10px 15px 7px 18px;
+  display: flex;
+  justify-content: space-between;
+  width: 242px;
+  height: 39px;
+  border-radius: 6px;
+  background-color: #b88e2f;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 17.71px;
+  text-align: left;
+  margin-left: 349px;
+  margin-top: 14px;
+  color: #fff;
+}
+
+.add-a-product h2 {
+  font-family: Poppins;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30.36px;
+  margin-left: 349px;
+  width: 174px;
+  height: 26px;
+}
+
+.arrow-under {
+  width: 18px;
+  height: 8.5px;
+  border: 2px;
+}
+
+.left-content a:hover {
+  border: 1px solid #727272;
+  background-color: #000;
+  color: #fff;
+  transition: 0.3s;
+  padding-top: 5;
+  border-radius: 10px;
+}

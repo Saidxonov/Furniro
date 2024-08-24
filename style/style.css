@@ -411,6 +411,7 @@ nav {
   color: #fff;
   padding: 12px 36px;
   background-color: #b88e2f;
+  transition: 0.3s;
 }
 
 .section-3 {
@@ -626,4 +627,35 @@ nav {
   width: 286px;
   height: 101px;
   border: 1px 0px 0px 0px;
+}
+
+.help li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  /* margin: 0 10px; */
+  padding: 5px 0;
+}
+
+.help li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #000;
+  /* Animatsiya chizig'ining rangi */
+  transition: width 0.4s ease-in-out;
+}
+
+.help li:hover::after {
+  width: 100%;
+}
+
+.explore-more:hover {
+  background-color: #fcf8f3;
+  color: #000;
+  border: 1px solid #b88e2f;
+  transition: 0.3s;
 }

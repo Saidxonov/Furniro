@@ -529,3 +529,101 @@ nav {
 .footer-big-div {
   display: flex;
 }
+
+.links li {
+  position: relative;
+  list-style: none;
+  display: inline-block;
+  /* margin: 0 10px; */
+  padding: 5px 0;
+}
+
+.links li::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 2px;
+  width: 0;
+  background-color: #000;
+  /* Animatsiya chizig'ining rangi */
+  transition: width 0.4s ease-in-out;
+}
+
+.links li:hover::after {
+  width: 100%;
+}
+
+.help p {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #9f9f9f;
+  padding-top: 26px;
+  padding-left: 144px;
+  padding-bottom: 55px;
+}
+
+.help ul {
+  padding-left: 144px;
+}
+
+.help ul li a {
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #000;
+}
+
+.newslettter p {
+  padding-top: 25px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  text-align: left;
+  color: #9f9f9f;
+}
+
+.input {
+  display: flex;
+  border: 0;
+  background-color: #fff;
+  padding-top: 53px;
+}
+
+.input input {
+  width: 200px;
+  height: 21px;
+  border: 0;
+  border-bottom: 1 solid black;
+}
+
+.input a {
+  width: 75px;
+  height: 21px;
+  border: 0;
+  border-bottom: 1px solid black;
+}
+
+.input a {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  text-align: left;
+  background-color: #fff;
+  border: 0;
+  /* border-bottom: 1px solid #000; */
+}
+
+.newslettter {
+  padding-left: 72px;
+  width: 286px;
+  height: 101px;
+  border: 1px 0px 0px 0px;
+}
